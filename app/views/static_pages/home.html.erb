@@ -1,20 +1,16 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
-
-<ul>
-<li><%= link_to "Секацкий", "static_pages/sekackiy" %></li>
-<li><%= link_to "Алиев",    "static_pages/hasay_aliev" %></li>
-<li><%= link_to "Покрасс",  "static_pages/pokrass" %></li>
-<li><%= link_to "Гегель",   "static_pages/gegel" %></li>
-<li><%= link_to "Поток",    "static_pages/flow" %></li>
-<li><%= link_to "Головин",  "static_pages/golovin" %></li>
-<li><%= link_to "About",    "static_pages/about" %></li>
-<li><%= link_to "Home",     "static_pages/home" %></li>
-<li><%= link_to "Help",     "static_pages/help" %></li>
-<li><%= link_to "Red",      "static_pages/red_univer" %></li>
-</ul>
-
+<%= provide(:title, 'Home')%>
 <h1>February App</h1>
-<p>Как устроен человек? </p>
-<p>spirit anima caro</p>
-<p>Душа — субтильное тело сложной композиции. Неоплатоники, затем схолиасты разделяли ее на четыре сферы: anima vegetabilis , anima animalis , anima rationalis, anima celestis (душа вегетативная, животная, рациональная, небесная). Для научно настроенных современников две первые — просто атрибуты живой (органической) материи, душа рациональная суть «убеждения и принципы», определяемые воспитанием и образованием, душа небесная — выражение из лексики священников, мистиков, романистов.</p>
+<h2>StaticPages#home</h2>
+<p>Find me in app/views/static_pages/home.html.erb</p>
+<ul>
+	<li><%= link_to "About",    "static_pages/about" %></li>
+	<!-- <li><%= link_to "Home",     "static_pages/home" %></li> -->
+	<li><%= link_to "Help",     "static_pages/help" %></li>
+	<li><%= link_to "Секацкий", "static_pages/sekackiy" %></li>
+	<li><%= link_to "Алиев",    "static_pages/hasay_aliev" %></li>
+	<li><%= link_to "Покрасс",  "static_pages/pokrass" %></li>
+	<li><%= link_to "Гегель",   "static_pages/gegel" %></li>
+	<li><%= link_to "Поток",    "static_pages/flow" %></li>
+	<li><%= link_to "Головин",  "static_pages/golovin" %></li>
+	<li><%= link_to "Red",      "static_pages/red_univer" %></li>
+</ul>
