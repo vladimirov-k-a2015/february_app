@@ -29,5 +29,11 @@ class StaticPagesController < ApplicationController
 
   def gegel
   end
+
+  def burlan
+  end
+  
+  def sobakin
+  end
   
 end
