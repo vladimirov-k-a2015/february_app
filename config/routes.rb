@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   match '/gegel',       to: 'static_pages#gegel', via: 'get'
   match '/sobakin',     to: 'static_pages#sobakin', via: 'get'
   match '/burlan',      to: 'static_pages#burlan', via: 'get'
+  match '/shish',       to: 'static_pages#shish', via: 'get'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

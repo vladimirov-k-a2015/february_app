@@ -35,5 +35,8 @@ class StaticPagesController < ApplicationController
   
   def sobakin
   end
+
+  def shish
+  end
   
 end
