@@ -1,9 +1,34 @@
-<div class="center hero-unit">
-  <p>Find me in app/views/static_pages/home.html.erb</p>
-  <p><%=  link_to "Sample App",     "http://polar-waters-4114.herokuapp.com/" %></p>
-  <p><%=  link_to "Заводной Мир",   "https://zavodnoy-mir-2596.herokuapp.com/" %></p>
-  <p><%=  link_to "February App",   "https://guarded-scrubland-44888.herokuapp.com/" %></p>
-  <p><%=  link_to "Bookshop",       "https://floating-falls-74030.herokuapp.com/" %></p>
+<div class="center hero-unit">	
+
+
+  <p class = "links_to_my_sites">Ссылки на сайты</p>
+  <div class = "my_sites">
+    <p><%=  link_to "Sample App",     "http://polar-waters-4114.herokuapp.com/" %></p>
+    <p><%=  link_to "Заводной Мир",   "https://zavodnoy-mir-2596.herokuapp.com/" %></p>
+    <p><%=  link_to "February App",   "https://guarded-scrubland-44888.herokuapp.com/" %></p>
+    <p><%=  link_to "Bookshop",       "https://floating-falls-74030.herokuapp.com/" %></p>
+  </div>
+
+
+
+
+  <%= form_for :N do |f| %>
+	  Сколько слов будешь запоминать: <%= f.text_field :words_quantity %><br />
+	  <%= f.submit %>
+  <% end %>
+
+  <%= form_tag do %>
+  <!-- Содержимое формы -->
+<% end %>
+  
+ <span class = "deleteAction"> у этой строки class = "deleteAction"; в скрипте прописано что если по объекту с таким классом кликнуть - выскочт сообщение с текстом "Татьяна!" </span>
+
+  <p onclick="this.style.backgroundColor='#009900'"> закрасить по щелчку <р onclick="this.style.backgroundColor='#009900'" p></p>
+
+  <a href="#" onclick="this.style.backgroundColor='#990000'">Paint it red</a>
+
+  <a href="#" onclick="this.style.backgroundColor='#009900';this.style.color='#FFFFFF';">Paint it green</a>
+
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

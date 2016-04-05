@@ -1,5 +1,10 @@
 class StaticPagesController < ApplicationController
   
+  def get_random_words
+    
+  end
+
+
   def home
   end
 
